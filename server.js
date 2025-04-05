@@ -2,7 +2,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
-const User = require('./models/User');
+const User = require('./backend/models/User');
 const bcrypt = require("bcryptjs");
 
 // Middleware
